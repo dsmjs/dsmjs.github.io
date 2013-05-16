@@ -130,6 +130,10 @@ a {
   text-shadow: #0090ff 0px 0px 2px;
 }
 
+#main_content h3 {
+    color: #0090ff;
+}
+
 footer a:hover {
   color: #43adff;
   text-shadow: #0090ff 0px 0px 2px;
@@ -169,9 +173,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -443,4 +444,3 @@ Small Device Styles
     font-size: 11px;
   }
 
-}
