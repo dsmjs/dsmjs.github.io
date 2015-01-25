@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font: 400 16px/1.5 "Quicksand", sans-serif;
+	background: #f3f3f3;
+	
+	@media all and (min-width: 640px) {
+		font-size: 24px;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+	@include link($teal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+.blue { background: $blue; }
+.green { background: $green; }
+.pink { background: $pink; }
+.purple { background: $purple; }
+
+.main .container {
+	background: #fff;
+	padding: 1em;
+}

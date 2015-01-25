@@ -1,0 +1,13 @@
+.card {
+	background-color: #fff;
+	display: block;
+	margin: 0 0 $padding 0;
+	padding: $padding;
+}
+
+.card-title {
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0;
+	text-transform: uppercase;
+}

@@ -1,0 +1,35 @@
+// colors
+$blue: #56626B;
+$green: #6C9380;
+$pink: #F07C6C;
+$purple: #AD5472;
+$teal: #099;
+
+//sizes
+$padding: 1em;
+
+//mixins
+@mixin clearfix() {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+@mixin link($color) {
+	color: $color;
+	
+	&:hover,
+	&:focus {
+		color: lighten($color, 5%);
+		text-decoration: underline;
+	}
+	
+	&:active {
+		color: darken($color, 5%);
+	}
+}

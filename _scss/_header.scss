@@ -1,0 +1,35 @@
+.header {
+	@media all and (min-width: 1000px) {
+		margin-top: 1em;
+	}
+}
+	
+
+.header-title {
+	img {
+		@media all and (min-width: 440px) {
+			float: left;
+			height: 8em;
+			width: auto;
+		}
+		
+	}
+}
+
+.header-container {
+	padding: 0;
+}
+
+.header-info {
+	color: #fff;
+	text-align: right;
+	margin-top: -6px;
+	
+	@media all and (min-width: 440px) {
+		margin-top: 0;
+	}
+}
+
+.header-info div {
+	padding: 0.25em 1em 0.25em 0;
+}

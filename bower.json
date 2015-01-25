@@ -1,0 +1,19 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dsmjs/dsmjs.github.io",
+  "authors": [
+    "Eric Ponto <eric.ponto@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cw-normalize": "~1.0.1"
+  }
+}

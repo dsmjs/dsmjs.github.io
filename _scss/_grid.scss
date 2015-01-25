@@ -1,0 +1,47 @@
+// bootstrap like grid
+
+.container {
+	padding: 0 $padding;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row {
+	margin: 0 (-$padding);
+	@include clearfix();
+}
+
+// simpler grid half, thirds, and quarters
+.col {
+	float: left;
+	width: 100%;
+	padding: 0 $padding;
+	min-height: 1px;
+}
+
+@media all and (min-width: 40em) {
+	
+	.col-quarter {
+		width: 25%;
+	}
+	
+	.col-half {
+		width: 50%;
+	}
+	
+	.col-three-quarters {
+		width: 75%;
+	}
+	
+	.col-third {
+		width: 33.333333333%;
+	}
+	
+	.col-two-thirds {
+		width: 66.666666666%;
+	}
+	
+	.offset-third {
+		margin-left: 33.333333333%;
+	}
+}

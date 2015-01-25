@@ -1,0 +1,11 @@
+{
+    "name": "cw-normalize",
+    "description": "Normalize.css usable as Sass partial",
+    "main": "_normalize.scss",
+    "keywords": "normalize, sass, partial",
+    "authors": [{ "name": "Laurent Wiesel", "email": "wiesel.laurent@gmail.com" }],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:lwiesel/normalize.scss.git"
+    }
+}
