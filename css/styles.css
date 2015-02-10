@@ -402,6 +402,9 @@ h6 {
   background: #fff;
   padding: 1em; }
 
+.tickly {
+  border-top: 1px solid #ccc; }
+
 .container {
   padding: 0 1em;
   max-width: 1000px;
@@ -501,7 +504,4 @@ h6 {
   position: absolute;
   width: 1px; }
 
-.text-center {
-  text-align: center;
-}
 /*# sourceMappingURL=styles.css.map */
