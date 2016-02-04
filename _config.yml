@@ -1,4 +1,2 @@
-markdown: redcarpet
-
 sass:
   style: :compressed
