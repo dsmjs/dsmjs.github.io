@@ -1,3 +1,5 @@
 _site/
 .c9/
 .sass-cache/
+
+.idea/
