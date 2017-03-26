@@ -6,8 +6,8 @@
 	<meta name="description" content="default : Welcome to dsmJS!" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="//fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
-	<title>dsmJS - Des Moines JavaScript User Group</title>
+	<link rel="stylesheet" href="/css/styles.css">
+	<title>{{ page.title }}  - Des Moines JavaScript User Group</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/Event">
@@ -18,22 +18,28 @@
 <main class="main">
 	<section class="container">
 		{{ content }}
-
-		{% if site.posts.first.tiklyWidgetID.size > 0 %}
-		<div class="tickly">
-			<p>This event form is to help us figure out how much food to get, and (if they're required) get the security badges created ahead of time.</p>
-			<div class="text-center">
-				<iframe name='tiklet' scrolling='no' id='{{site.posts.first.tiklyWidgetID}}' style='height:350px;width:420px;background-color: transparent;' frameborder='0' src='{{site.posts.first.tiklyWidgetURL}}'></iframe>
-			</div>
-		</div>
-		{% endif %}
-
-		<h3>Pizza and drinks proudly sponsored by <a href="{{site.posts.first.pizzaSponsorSite}}">{{site.posts.first.pizzaSponsorName}}</a></h3>
 	</section>
 </main>
 
 <!-- FOOTER  -->
 {% include footer.html %}
 
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </body>
 </html>

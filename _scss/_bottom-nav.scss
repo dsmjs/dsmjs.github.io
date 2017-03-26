@@ -1,0 +1,32 @@
+.bottom-nav-container {
+	background: #666;
+	font-size: 0.9em;
+
+	a {
+		color: #fff;
+	}
+}
+
+.bottom-nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	> li {
+		padding: 0.5em;
+	}
+}
+
+.twitter-container {
+	padding: 0.5em;
+
+	@media all and (min-width: 40em) {
+		text-align: right;
+	}
+}
+
+.twitter-follow-button {
+	position: relative !important;
+	top: 2px;
+}

@@ -1,3 +1,6 @@
+---
+---
+
 @import "../_lib/cw-normalize/normalize";
 
 @import "vars";
@@ -6,5 +9,7 @@
 @import "card";
 @import "header";
 @import "footer";
+@import "paginator";
+@import "bottom-nav";
 
 @import "utils";

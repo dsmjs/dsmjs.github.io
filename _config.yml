@@ -1,3 +1,9 @@
 future: true
 sass:
-  style: :compressed
+  sass_dir: _scss
+  style: compressed
+paginate: 6
+paginate_path: "archive/page-:num"
+
+gems:
+  - jekyll-paginate

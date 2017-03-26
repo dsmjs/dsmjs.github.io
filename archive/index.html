@@ -1,0 +1,36 @@
+---
+layout: default
+title: Past Meetings
+---
+
+<h2>Past Meetings</h2>
+
+{% for post in paginator.posts %}
+	<div class="meeting">
+		<h4 class="meeting-title"><a href="{{ post.url }}">{{ post.date  | date: "%B %d, %Y" }}</a></h4>
+	</div>
+{% endfor %}
+
+<div class="paginator">
+	<ol class="paginator-list">
+		<li {% if paginator.previous_page %}{% else %}class="disabled"{% endif %}>
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+		</li>
+		{% for num in (1..paginator.total_pages) %}
+			{% if paginator.page == forloop.index %}
+				<li class="active"><a href="#">{{ forloop.index }}</a></li>
+			{% elsif forloop.index == 1 %}
+				<li><a href="/archive/">{{ forloop.index }}</a></li>
+			{% else %}
+				<li><a href="/archive/page-{{ forloop.index }}/">{{ forloop.index }}</a></li>
+			{% endif %}
+		{% endfor %}
+		<li {% if paginator.next_page %}{% else %}class="disabled"{% endif %}>
+			{% if paginator.next_page %}
+			<a href="/archive/page-{{ paginator.next_page }}/">&raquo;</a>
+			{% else %}
+			<a href="#">&raquo;</a>
+			{% endif %}
+		</li>
+	</ol>
+</div>
