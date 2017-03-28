@@ -6,7 +6,21 @@ title: dsmJS
 <h2 itemprop="startDate" content="{{ site.posts.first.date | date: "%Y-%m-%d" }}">{{ site.posts.first.date | date: "%B %d, %Y" }}</h2>
 <p>{{ site.posts.first.time }} @ {{ site.posts.first.location }}</p>
 
-{{ site.posts.first.content }}
+
+{% capture pagedate %}{{ site.posts.first.date | date: '%B %-d, %Y'}}{% endcapture %}
+{% assign dateTalks = site.talks | where:"date",pagedate %}
+{% for talk in dateTalks %}
+	<h3 class="talk-title">{{ talk.title}} </h3>
+	<h4 class="talk-speaker">
+		{{ talk.speaker }}
+		{% if talk.twitter %}
+			<small><a href="https://twitter.com/{{ talk.twitter }}">@{{ talk.twitter }}</a></small>
+		{% endif %}
+	</h4>
+
+	{{ talk.content }}
+{% endfor %}
+
 
 {% if site.posts.first.tiklyWidgetID.size > 0 %}
 <div class="tickly">

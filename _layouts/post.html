@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h2 itemprop="startDate" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</h2>
+<p>{{ page.time }} @ {{ page.location }}</p>
+
+
+{% capture pagedate %}{{ page.date | date: '%B %-d, %Y'}}{% endcapture %}
+{% assign dateTalks = site.talks | where:"date",pagedate %}
+{% for talk in dateTalks %}
+	<h3 class="talk-title">{{ talk.title}} </h3>
+	<h4 class="talk-speaker">
+		{{ talk.speaker }}
+		{% if talk.twitter %}
+			<small><a href="https://twitter.com/{{ talk.twitter }}">@{{ talk.twitter }}</a></small>
+		{% endif %}
+	</h4>
+
+	{{ talk.content }}
+{% endfor %}

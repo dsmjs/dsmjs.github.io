@@ -8,6 +8,12 @@ title: Past Meetings
 {% for post in paginator.posts %}
 	<div class="meeting">
 		<h4 class="meeting-title"><a href="{{ post.url }}">{{ post.date  | date: "%B %d, %Y" }}</a></h4>
+
+		{% capture pagedate %}{{ post.date | date: '%B %-d, %Y'}}{% endcapture %}
+		{% assign dateTalks = site.talks | where:"date",pagedate %}
+		{% for talk in dateTalks %}
+				<h5 class="talk-card">{{ talk.title}}</h5>
+		{% endfor %}
 	</div>
 {% endfor %}
 
