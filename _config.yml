@@ -4,6 +4,8 @@ sass:
   style: compressed
 paginate: 6
 paginate_path: "archive/page-:num"
+collections:
+  - talks
 
 gems:
   - jekyll-paginate
