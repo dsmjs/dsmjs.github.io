@@ -8,17 +8,19 @@ title: dsmJS
 
 
 {% capture pagedate %}{{ site.posts.first.date | date: '%B %-d, %Y'}}{% endcapture %}
-{% assign dateTalks = site.talks | where:"date",pagedate %}
-{% for talk in dateTalks %}
-	<h3 class="talk-title">{{ talk.title}} </h3>
-	<h4 class="talk-speaker">
-		{{ talk.speaker }}
-		{% if talk.twitter %}
-			<small><a href="https://twitter.com/{{ talk.twitter }}">@{{ talk.twitter }}</a></small>
-		{% endif %}
-	</h4>
+{% for talk in site.talks %}
+	{% capture talkdate %}{{ talk.date | date: '%B %-d, %Y'}}{% endcapture %}
+	{% if pagedate == talkdate %}
+		<h3 class="talk-title">{{ talk.title}} </h3>
+		<h4 class="talk-speaker">
+			{{ talk.speaker }}
+			{% if talk.twitter %}
+				<small><a href="https://twitter.com/{{ talk.twitter }}">@{{ talk.twitter }}</a></small>
+			{% endif %}
+		</h4>
 
-	{{ talk.content }}
+		{{ talk.content }}
+	{% endif %}
 {% endfor %}
 
 

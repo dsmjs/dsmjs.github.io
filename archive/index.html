@@ -10,9 +10,11 @@ title: Past Meetings
 		<h4 class="meeting-title"><a href="{{ post.url }}">{{ post.date  | date: "%B %d, %Y" }}</a></h4>
 
 		{% capture pagedate %}{{ post.date | date: '%B %-d, %Y'}}{% endcapture %}
-		{% assign dateTalks = site.talks | where:"date",pagedate %}
-		{% for talk in dateTalks %}
+		{% for talk in site.talks %}
+			{% capture talkdate %}{{ talk.date | date: '%B %-d, %Y'}}{% endcapture %}
+			{% if pagedate == talkdate %}
 				<h5 class="talk-card">{{ talk.title}}</h5>
+			{% endif %}
 		{% endfor %}
 	</div>
 {% endfor %}
