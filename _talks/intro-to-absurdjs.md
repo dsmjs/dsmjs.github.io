@@ -4,6 +4,7 @@ date: September 9, 2014
 tags: Absurd
 speaker: Eric Ponto
 twitter: ericponto
+code: https://github.com/dsmjs/intro-to-absurd
 ---
 
 

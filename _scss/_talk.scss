@@ -13,3 +13,14 @@
 	margin-left: 1em;
 	color: $blue;
 }
+
+.talk-info {
+	background-color: #f9f9f9;
+	padding: 0.5rem;
+	font-size: 0.9em;
+	margin-bottom: 1rem;
+
+	.icon {
+		fill: #888;
+	}
+}

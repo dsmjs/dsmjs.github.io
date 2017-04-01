@@ -4,6 +4,7 @@ date: July 11, 2013
 tags:
 speaker: Matthew J. Morrizon
 twitter: mattjmorrison
+code: https://github.com/dsmjs/dsmjs-6-10-2014-prototype
 ---
 
 

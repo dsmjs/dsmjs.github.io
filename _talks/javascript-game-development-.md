@@ -4,6 +4,7 @@ date: May 14, 2013
 tags: Impact
 speaker: Joel Taddei
 twitter: taddeimania
+code: https://github.com/dsmjs/2013-05-advanced-topic
 ---
 
 (intermediate ImpactJS)

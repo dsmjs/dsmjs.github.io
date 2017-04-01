@@ -4,6 +4,7 @@ date: May 14, 2013
 tags:
 speaker: Toran Billups
 twitter: toranb
+code: https://github.com/dsmjs/2013-05-intro-topic
 ---
 
 

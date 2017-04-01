@@ -4,6 +4,7 @@ date: November 12, 2014
 tags: ES6
 speaker: Eric Ponto
 twitter: ericponto
+code: https://github.com/dsmjs/11-12-14-intro-to-es6
 ---
 
 

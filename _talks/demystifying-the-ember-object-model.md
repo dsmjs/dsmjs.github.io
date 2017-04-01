@@ -4,6 +4,7 @@ date: March 11, 2014
 tags: Ember
 speaker: Toran Billups
 twitter: toranb
+code: https://github.com/dsmjs/2014-03-ember-object-intro
 ---
 
 

@@ -4,6 +4,7 @@ date: March 11, 2014
 tags:
 speaker: Brandon Williams
 twitter: williamsbdev
+code: https://github.com/dsmjs/2014-03-ember-gulp-example
 ---
 
 

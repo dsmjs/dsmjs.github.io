@@ -4,6 +4,7 @@ date: February 10, 2015
 tags: ES6
 speaker: Eric Ponto
 twitter: ericponto
+code: https://github.com/dsmjs/02-10-2015-promise-generators
 ---
 
 
