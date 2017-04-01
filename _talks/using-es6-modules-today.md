@@ -4,6 +4,7 @@ date: May 13, 2014
 tags: ES6
 speaker: Toran Billups
 twitter: toranb
+code: https://github.com/dsmjs/es6-demo
 ---
 
 

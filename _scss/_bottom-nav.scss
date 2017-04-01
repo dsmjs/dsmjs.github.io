@@ -1,6 +1,10 @@
 .bottom-nav-container {
 	background: #666;
-	font-size: 0.9em;
+	font-size: 1.1em;
+
+	@media all and (min-width: 40em) {
+		font-size: 0.9em;
+	}
 
 	a {
 		color: #fff;
@@ -18,15 +22,7 @@
 	}
 }
 
-.twitter-container {
+.social-container {
 	padding: 0.5em;
-
-	@media all and (min-width: 40em) {
-		text-align: right;
-	}
-}
-
-.twitter-follow-button {
-	position: relative !important;
-	top: 2px;
+	text-align: right;
 }

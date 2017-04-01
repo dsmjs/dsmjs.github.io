@@ -4,6 +4,7 @@ date: September 10, 2013
 tags: Grunt
 speaker: Chuck Rolek
 twitter: crolek
+code: https://github.com/dsmjs/grunt_intro_example
 ---
 
 

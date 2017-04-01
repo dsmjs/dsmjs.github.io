@@ -8,21 +8,8 @@ title: dsmJS
 
 
 {% capture pagedate %}{{ site.posts.first.date | date: '%B %-d, %Y'}}{% endcapture %}
-{% for talk in site.talks %}
-	{% capture talkdate %}{{ talk.date | date: '%B %-d, %Y'}}{% endcapture %}
-	{% if pagedate == talkdate %}
-		<h3 class="talk-title">{{ talk.title}} </h3>
-		<h4 class="talk-speaker">
-			{{ talk.speaker }}
-			{% if talk.twitter %}
-				<small><a href="https://twitter.com/{{ talk.twitter }}">@{{ talk.twitter }}</a></small>
-			{% endif %}
-		</h4>
 
-		{{ talk.content }}
-	{% endif %}
-{% endfor %}
-
+{% include post-body.html pagedate=pagedate %}
 
 {% if site.posts.first.tiklyWidgetID.size > 0 %}
 <div class="tickly">

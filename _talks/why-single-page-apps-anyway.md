@@ -4,6 +4,7 @@ date: August 20, 2013
 tags: SPA
 speaker: Toran Billups
 twitter: toranb
+code: https://github.com/dsmjs/2013-08-20-why-single-page-apps
 ---
 
 

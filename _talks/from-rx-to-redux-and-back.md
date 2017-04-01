@@ -6,6 +6,7 @@ tags:
   - Redux
 speaker: Eric Ponto
 twitter: ericponto
+slides: http://slides.ericponto.com/dsmjs-rx-to-redux-and-back/
 ---
 
 

@@ -3,9 +3,11 @@ title: Functional Programming in Ember? The Ember-Redux Origin Story
 date: May 11, 2016
 tags:
   - Ember
+  - Redux
   - Functional Programming
 speaker: Toran Billups
 twitter: toranb
+video: https://vimeo.com/166199795
 ---
 
 

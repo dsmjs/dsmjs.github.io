@@ -19,29 +19,42 @@
 	min-height: 1px;
 }
 
+.col-half-s {
+		width: 50%;
+	}
+
 @media all and (min-width: 40em) {
-	
+
 	.col-quarter {
 		width: 25%;
 	}
-	
+
 	.col-half {
 		width: 50%;
 	}
-	
+
 	.col-three-quarters {
 		width: 75%;
 	}
-	
+
 	.col-third {
 		width: 33.333333333%;
 	}
-	
+
 	.col-two-thirds {
 		width: 66.666666666%;
 	}
-	
+
 	.offset-third {
 		margin-left: 33.333333333%;
 	}
 }
+
+.show-lg {
+	display: none;
+
+	@media all and (min-width: 50em) {
+		display: initial;
+	}
+}
+

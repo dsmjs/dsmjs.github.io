@@ -4,6 +4,7 @@ date: October 11, 2016
 tags: Redux
 speaker: Toran Billups
 twitter: toranb
+video: https://vimeo.com/187938033
 ---
 
 

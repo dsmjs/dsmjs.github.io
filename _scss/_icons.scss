@@ -1,0 +1,35 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+	vertical-align: middle;
+	top: -3px;
+	position: relative;
+}
+
+a > .icon {
+	margin-right: 0.25em;
+}
+
+.icon-button {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 0.25em;
+	width: 1.25rem;
+	height: 1.25rem;
+	font-size: 0.9em;
+	display: inline-block;
+	text-align: center;
+
+	&:hover,
+	&:focus {
+		background:rgba(255, 255, 255, 0.3);
+	}
+
+	.icon {
+		margin: 0;
+		top: -1px;
+	}
+}

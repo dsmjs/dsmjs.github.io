@@ -1,0 +1,32 @@
+{% for talk in site.talks %}
+	{% capture talkdate %}{{ talk.date | date: '%B %-d, %Y'}}{% endcapture %}
+	{% if pagedate == talkdate %}
+
+		<h3 class="talk-title">{{ talk.title}} </h3>
+		<h4 class="talk-speaker">
+			{{ talk.speaker }}
+			{% if talk.twitter %}
+				<small><a href="https://twitter.com/{{ talk.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>@{{ talk.twitter }}</a></small>
+			{% endif %}
+		</h4>
+
+		{{ talk.content | markdownify }}
+
+		{% if talk.slides or talk.code or talk.video %}
+			<div class="talk-info">
+				{% if talk.slides %}
+					<svg class="icon icon-link"><use xlink:href="#icon-link"></use></svg>
+					<a href="{{ talk.slides }}">Slides</a>
+				{% endif %}
+				{% if talk.code %}
+					<svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+					<a href="{{ talk.code }}">Code</a>
+				{% endif %}
+				{% if talk.video %}
+					<svg class="icon icon-play"><use xlink:href="#icon-play"></use></svg>
+					<a href="{{ talk.video }}">Video</a>
+				{% endif %}
+			</div>
+		{% endif %}
+	{% endif %}
+{% endfor %}
