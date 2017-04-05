@@ -1,9 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
+    addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
+    ffi (1.9.18)
     ffi (1.9.18-x64-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.4.3)
@@ -39,6 +40,7 @@ GEM
     sass (3.4.23)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
