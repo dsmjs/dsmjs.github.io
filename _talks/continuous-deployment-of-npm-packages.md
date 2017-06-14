@@ -8,6 +8,7 @@ tags:
   - semantic-release
 speaker: Matt Travi
 twitter: mtravi
+slides: https://presentations.travi.org/continuous-deployment-dsmjs-june-2017
 ---
 
 # Location Change
