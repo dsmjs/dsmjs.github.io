@@ -4,6 +4,7 @@ date: July 12, 2016
 tags: Component Library
 speaker: Matt Travi
 twitter: mtravi
+slides: https://presentations.travi.org/component-library-dsmjs-july-2016/
 ---
 
 
