@@ -5,7 +5,7 @@ tags:
   - nodejs
   - aws-lamda
 speaker: Todd Brunia
-twitter: @bruniatodd
+twitter: bruniatodd
 ---
 
 You won't want to miss this interactive demo in which Todd Brunia will build,
