@@ -1,5 +1,5 @@
 ---
-title: Redux: A Case Study in Performance Tuning
+title: Redux - A Case Study in Performance Tuning
 date: August 15, 2017
 tags: Redux
 speaker: Toran Billups
