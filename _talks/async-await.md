@@ -3,6 +3,7 @@ title: Async/Await - A solution to callback hell we've been awaiting for.
 date: September 12, 2017
 tags: Async/Await 
 speaker: Paul Searcy
+twitter: paulsearcy5
 ---
 In web development we've all felt the pain of creating a 'pyramid of doom'. To handle what we thought was a 'simple' singular request to an external endpoint. JQuery, circa late 2000s, made it seem so easy until the community decided we didn't really need a full library to just do requests. Then we  were thrust into the glorious world of event loops, closures, and too many AJAX libraries to count.
  
