@@ -5,6 +5,6 @@ layout: default
 <h2 itemprop="startDate" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %d, %Y" }}</h2>
 <p>{{ page.time }} @ {{ page.location }}</p>
 
-{% capture pagedate %}{{ page.date | date: '%B %-d, %Y'}}{% endcapture %}
+{%- capture pagedate -%}{{ page.date | date: '%B %-d, %Y'}}{%- endcapture -%}
 
-{% include post-body.html pagedate=pagedate %}
+{%- include post-body.html pagedate=pagedate -%}

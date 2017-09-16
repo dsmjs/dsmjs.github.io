@@ -6,18 +6,17 @@ title: dsmJS
 <h2 itemprop="startDate" content="{{ site.posts.first.date | date: "%Y-%m-%d" }}">{{ site.posts.first.date | date: "%B %d, %Y" }}</h2>
 <p>{{ site.posts.first.time }} @ {{ site.posts.first.location }}</p>
 
+{%- capture pagedate -%}{{ site.posts.first.date | date: '%B %-d, %Y'}}{%- endcapture -%}
 
-{% capture pagedate %}{{ site.posts.first.date | date: '%B %-d, %Y'}}{% endcapture %}
+{%- include post-body.html pagedate=pagedate -%}
 
-{% include post-body.html pagedate=pagedate %}
-
-{% if site.posts.first.tiklyWidgetID.size > 0 %}
+{%- if site.posts.first.tiklyWidgetID.size > 0 -%}
 <div class="tickly">
 	<p>This event form is to help us figure out how much food to get, and (if they're required) get the security badges created ahead of time.</p>
 	<div class="text-center">
-		<iframe name='tiklet' scrolling='no' id='{{site.posts.first.tiklyWidgetID}}' style='height:350px;width:420px;background-color: transparent;' frameborder='0' src='{{site.posts.first.tiklyWidgetURL}}'></iframe>
+		<iframe name='tiklet' scrolling='no' id='{{site.posts.first.tiklyWidgetID}}' style='height:100%;width:420px;background-color: transparent;' frameborder='0' src='{{site.posts.first.tiklyWidgetURL}}'></iframe>
 	</div>
 </div>
-{% endif %}
+{%- endif -%}
 
 <h3>Pizza and drinks proudly sponsored by <a href="{{site.posts.first.pizzaSponsorSite}}">{{site.posts.first.pizzaSponsorName}}</a></h3>

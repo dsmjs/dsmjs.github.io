@@ -1,7 +1,7 @@
 // colors
 $blue: #56626B;
 $green: #6C9380;
-$pink: #F07C6C;
+$pink: #931e0f;
 $purple: #AD5472;
 $teal: #099;
 
@@ -22,13 +22,13 @@ $padding: 1em;
 
 @mixin link($color) {
 	color: $color;
-	
+
 	&:hover,
 	&:focus {
 		color: lighten($color, 5%);
 		text-decoration: underline;
 	}
-	
+
 	&:active {
 		color: darken($color, 5%);
 	}
