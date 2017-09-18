@@ -1,9 +1,9 @@
 .header {
 	@media all and (min-width: 1000px) {
-		margin-top: 1em;
+		margin-top: 0;
 	}
 }
-	
+
 
 .header-title {
 	img {
@@ -12,7 +12,7 @@
 			height: 8em;
 			width: auto;
 		}
-		
+
 	}
 }
 
@@ -24,7 +24,7 @@
 	color: #fff;
 	text-align: right;
 	margin-top: -6px;
-	
+
 	@media all and (min-width: 440px) {
 		margin-top: 0;
 	}

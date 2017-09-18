@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="default : Welcome to dsmJS!" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="//fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
@@ -11,20 +10,17 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/Event">
-{% include icons.html %}
+{%- include icons.html -%}
 
-<!-- HEADER -->
-{% include header.html %}
+{%- include header.html -%}
 
-<!-- MAIN CONTENT -->
 <main class="main">
 	<section class="container">
 		{{ content }}
 	</section>
 </main>
 
-<!-- FOOTER  -->
-{% include footer.html %}
+{%- include footer.html -%}
 
 </body>
 </html>
