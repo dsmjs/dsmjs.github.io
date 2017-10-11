@@ -7,6 +7,8 @@ tags:
   - enzyme
 speaker: Matt Travi
 twitter: mtravi
+code: https://github.com/travi/react-in-isolation/tree/dsmjs-oct-2017
+slides: https://presentations.travi.org/react-in-isolation-dsmjs-oct-2017
 ---
 
 The React ecosystem can have a very steep learning curve, especially when
