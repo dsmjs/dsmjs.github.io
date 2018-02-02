@@ -1,14 +1,9 @@
 ---
 title: Code Review and other tips
 date: Feb 13, 2018
-tags:
-  - Git
-  - CI
-  - PairProgramming
 speaker: Aaron Eischeid
 twitter: aeischeid
 ---
-
 
 Working on teams can be tricky. Tips and tricks I have learned with a growing dev team
 
