@@ -4,6 +4,7 @@ date: March 13, 2018
 tags: Functional Programming
 speaker: Eric Ponto
 twitter: ericponto
+slides: http://slides.ericponto.com/dsmjs-intro-to-transducers/
 ---
 
 "Transducer" sounds like just another jargony functional programming term and, yeah, it kind of is...
