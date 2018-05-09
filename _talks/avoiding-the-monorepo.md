@@ -7,6 +7,8 @@ tags:
 - codified-decisions
 speaker: Matt Travi
 twitter: mtravi
+code: https://github.com/travi/project-scaffolder
+slides: https://presentations.travi.org/avoiding-the-monorepo-dsmjs-may-2018
 ---
 
 Modularizing a project is important, but doing so comes with overhead. Managing
