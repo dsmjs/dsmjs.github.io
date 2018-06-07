@@ -1,6 +1,6 @@
 ---
 title: Serverless through AWS SAM
-date: June 12, 2018
+date: June 19, 2018
 tags:
 - serverless
 - aws-sam
