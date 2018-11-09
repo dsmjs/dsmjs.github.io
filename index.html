@@ -20,4 +20,18 @@ title: dsmJS
 </div>
 {% endif %}
 
+{% if site.posts.first.eventbriteId.size > 0 %}
+<div id="eventbrite-widget-container"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '{{site.posts.first.evenbriteId}}',
+        iframeContainerId: 'eventbrite-widget-container',
+    });
+</script>
+{% endif %}
+
 <h3>Pizza and drinks proudly sponsored by <a href="{{site.posts.first.pizzaSponsorSite}}">{{site.posts.first.pizzaSponsorName}}</a></h3>
