@@ -5,5 +5,4 @@ speaker: Shane Church
 twitter: shaneschurch
 code: https://github.com/churchs19/lego-movehub-remote
 ---
-I've been working on a small project to create a remote control for a Lego Boost-based vehicle using Angular 6, TypeScript, and Node.js. Boost communicates through a Bluetooth Low Energy connection and I thought the community would enjoy learning about what I've learned and seeing the results of this.
-
+I've been playing with the Lego Boost robotics platform lately to build a remote control for the Boost Move Hub using Angular 7, TypeScript, and Node.js. The Boost Move Hub communicates with an app or the PC through a Bluetooth Low Energy connection. I thought the community would enjoy learning about what I’ve learned in the process and some of the potential for automated Lego creations.
