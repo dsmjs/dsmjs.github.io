@@ -4,6 +4,8 @@ date: April 9, 2019
 speaker: Rocky Warren
 github: therockstorm
 website: https://rockywarren.com
+slides: https://gitpitch.com/dwolla/webhook-handler
+code: https://gitpitch.com/dwolla/webhook-handler#/12
 ---
 
 At Dwolla, we send millions of webhooks a week. We recently rearchitected from
