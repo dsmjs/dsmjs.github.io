@@ -1,0 +1,9 @@
+---
+title: Angular Fundamentals
+date: June 13, 2019
+tags: angular, angular2, javascript, typescript, frontend, framework
+speaker: Sophie McCall
+twitter: sophiemccalldsm
+---
+
+An introduction to the basics of web development using Angular. The talk will cover the Angular CLI, file structure, components, and directives. We'll build a simple application from scratch, and learn about the component lifecycle, databinding, and much more. By the end of the talk, you'll be able to build an app that does pretty much whatever you want using Angular.
