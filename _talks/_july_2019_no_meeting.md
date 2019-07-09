@@ -1,6 +1,6 @@
 ---
-title: No meeting in December
-date: December 11, 2018
+title: No meeting in July
+date: July 9, 2019
 speaker: None
 ---
 
