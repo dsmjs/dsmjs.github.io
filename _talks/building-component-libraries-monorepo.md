@@ -4,6 +4,7 @@ date: September 10, 2019
 speaker: Lee Robinson
 twitter: leeerob
 github: leeerob
+code: https://github.com/Hy-Vee/lerna-yarn-workspaces-monorepo
 ---
 
 Learn why your organization needs a component library and discover the best practices for building, scaling, and adopting it across all platforms. We'll be using industry-standard technology (React, JavaScript, Storybook) alongside cutting-edge solutions (CSS-in-JS, Monorepo).
