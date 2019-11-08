@@ -1,5 +1,5 @@
 ---
-title: Quokka and Wallaby: Must have tools for every JS Developer
+title: Quokka and Wallaby - Must have tools for every JS Developer
 date: November 12, 2019
 speaker: Michael Clark
 github: michaelwclark
