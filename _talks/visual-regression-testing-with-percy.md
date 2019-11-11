@@ -1,6 +1,5 @@
 ---
 title: Visual Regression Testing with Percy
-date: November 12, 2019
 speaker: Matt Travi
 github: travi
 twitter: mtravi
