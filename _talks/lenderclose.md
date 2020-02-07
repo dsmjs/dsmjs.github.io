@@ -3,9 +3,6 @@ title: The Hitchhiker's Guide to Public API
 date: February 11, 2020
 speaker: Jessica Wilson
 twitter: jwilson1293  
-# github: 
-# code: https://github.com/micleners/cypress-retro
-# slides: https://cypress-retro.micleners.com/
 ---
 
 Jessica Wilson is a talented full-stack Software Engineer at LenderClose where she is part of a
