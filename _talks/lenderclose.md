@@ -1,5 +1,5 @@
 ---
-title: LenderClose
+title: The Hitchhiker's Guide to Public API  
 date: February 11, 2020
 speaker: Jessica Wilson
 twitter: jwilson1293  
@@ -19,3 +19,6 @@ LenderClose, a CUSO, was established with the key belief that innovative technol
 empower community credit unions and banks. LenderClose equips loan originators with the
 workflows needed to boost efficiencies and shorten the lending cycle through streamlined and
 meaningful integrations.
+
+
+<img src="/img/Event_Location_2929_Westown.png" alt="directions" width="240" height="180">
