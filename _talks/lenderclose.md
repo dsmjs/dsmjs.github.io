@@ -21,4 +21,4 @@ workflows needed to boost efficiencies and shorten the lending cycle through str
 meaningful integrations.
 
 
-<img src="/img/Event_Location_2929_Westown.png" alt="directions" width="240" height="180">
+<img src="/img/Event_Location_2929_Westown.png" alt="directions" />
