@@ -1,10 +1,10 @@
 ---
-title: The Hitchhiker's Guide to Public API  
+title: The Hitchhiker's Guide to Public APIs  
 date: February 11, 2020
 speaker: Jessica Wilson
 twitter: jwilson1293  
 ---
-## The Hitchhiker's Guide to Public API  
+## The Hitchhiker's Guide to Public APIs  
 APIs!  What!?  Wow, those sound incredible, but I couldn't possibly interact with one, could I?  What do I do?  How do I do it?  Is it really that amazing?"  The answer is Yes, Yes, Yes!  You can do it, and this talk will introduce you into the wonderful world of getting data and doing cool things!  Jessica will show you how to Level Up and bring Power to your projects!  Grab your dice, roll a character sheet, and prepare to get your socks blown off!
 
 ## About the Speaker
