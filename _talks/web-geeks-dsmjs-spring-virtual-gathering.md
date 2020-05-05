@@ -12,7 +12,7 @@ Join us Tuesday, May 12th at 6pm (CST) for our *first ever virtual meetup combin
 - Discuss with others what it's like to be entering the field or looking for a job in this environment
 - Work-life balance (FYI - kids and pets welcome!)
 
-Access to a Trello board will be provided for us all to post questions or topics for the group throughout the meeting. It'll be much like a "parking-lot" Kanban board approach to topics! If you have questions now, tell us your question via this google form. Along the way, feel free to add any follow-up questions by leaving a comment on the topic's Trello board or in the chat. All are welcome and encouraged to attend this free event.
+Access to a Trello board will be provided for us all to post questions or topics for the group throughout the meeting. It'll be much like a "parking-lot" Kanban board approach to topics! If you have questions now, tell us your question via [this google form](https://docs.google.com/forms/d/e/1FAIpQLSfR2vuLncstV2iIPmCEEMfne8a889zlWNOrDlHbhtylK-ihxQ/viewform). Along the way, feel free to add any follow-up questions by leaving a comment on the topic's Trello board or in the chat. All are welcome and encouraged to attend this free event.
 
 This is a great way to stay "meet" other like-minded community individuals and have a little human interaction during these times of isolation.
 
