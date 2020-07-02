@@ -1,7 +1,7 @@
 ---
 title: Visual Testing for React Components
 date: July 13, 2020
-speaker: Michael Leners
+speaker: Gleb Bahmutov
 twitter: bahmutov
 github: bahmutov
 ---
