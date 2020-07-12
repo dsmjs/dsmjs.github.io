@@ -21,3 +21,27 @@ Gleb Bahmutov is JavaScript ninja, image processing expert and software quality 
 JavaScript End to End Testing Framework: [cypress.io](https://www.cypress.io)
 
 Fast, easy and reliable testing for anything that runs in a browser. Install Cypress in seconds and take the pain out of front-end testing.
+
+---
+
+### Future Events
+
+---
+
+#### Cypress Dojo by Michael Leners [@micleners](https://github.com/micleners/cypress-cotd)
+
+**July 30, 5:30 - 7:30pm CT**
+
+While easy to get started, this dojo will help those looking to jumpstart their experience with Cypress.
+
+---
+
+#### Knowledge Work 3.0 by Toran Billups [@toranb](https://toranbillups.com/)
+
+**Aug 11, 6:30 - 7:30pm CT**
+
+Sprinting got you down? Come hear about how Shape Up can transform the delivery process.
+
+---
+
+### Register for Visual Testing for React Components here:
