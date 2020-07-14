@@ -4,6 +4,7 @@ date: July 13, 2020
 speaker: Gleb Bahmutov
 twitter: bahmutov
 github: bahmutov
+slides: https://slides.com/bahmutov/visual-testing
 ---
 
 Join us July 13th on Zoom for a presentation on visual testing for React components with the VP of Engineering at Cypress.io.
