@@ -10,6 +10,8 @@ slides: https://cypress-retro.micleners.com/
 
 While easy to get started, this dojo will help those looking to jumpstart their experience with Cypress.
 
+#### [Register Below](#register)
+
 ### About the talk
 
 [Cypress.io](https://www.cypress.io) is "fast, easy and reliable testing for anything that runs in a browser". It is batteries-included so it comes fully loaded with useful features and perks. It is also open-source, has a strong user community, and is backed by great documentation.
@@ -25,6 +27,8 @@ Dojo Outline:
 - Extension 2: Using Cypress to spy on and mock API calls
 
 To get started testing quickly, I provide a React project with Cypress tests already written for it. We will spend some time getting acquainted with the project layout. Then we will begin exploring running tests in Cypress. We will soon discover that some tests are broken. Fixing these tests will be our first testing task. Then we will create more tests based on the suggestions provided in code. Attendees are then encouraged to explore more ways to test the application.
+
+**Note:** To streamline the process, please come with [the repo](https://github.com/micleners/cypress-cotd) pulled down and installed, per the instructions in the [README](https://github.com/micleners/cypress-cotd/blob/master/README.md).
 
 ### Want more?
 
@@ -52,4 +56,4 @@ Sprinting got you down? Come hear about how Shape Up can transform the delivery 
 
 ---
 
-### Register for Cypress Dojo here:
+### <a name="register"></a>Register for Cypress Dojo here:
