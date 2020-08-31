@@ -1,6 +1,6 @@
 ---
-title: Knowledge Work 3.0
-date: August 11, 2020
+title: RESCHEDULED: Knowledge Work 3.0
+date: September 15, 2020
 speaker: Toran Billups
 twitter: toranb
 github: toranb
