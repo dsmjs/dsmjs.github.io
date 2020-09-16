@@ -4,6 +4,7 @@ date: September 15, 2020
 speaker: Toran Billups
 twitter: toranb
 github: toranb
+video: https://vimeo.com/458384193
 ---
 
 ### About the talk
