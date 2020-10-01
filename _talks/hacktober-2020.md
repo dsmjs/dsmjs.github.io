@@ -2,8 +2,8 @@
 title: Hacktoberfest 2020
 date: October 12, 2020
 speaker: Community
-twitter: @dsmwebgeeks
-github: @dsmjs
+twitter: dsmwebgeeks
+github: dsmjs
 ---
 
 
