@@ -1,5 +1,6 @@
 _site/
 .c9/
 .sass-cache/
+.jekyll-cache
 
 .idea/
