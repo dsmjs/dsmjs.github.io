@@ -4,6 +4,8 @@ date: November 09, 2021
 speaker: Michael Leners
 twitter: micleners
 github: micleners
+slides: https://docs.google.com/presentation/d/16WnCsdsUu5BrHVh5VgGdH0bB7Bz6sLZY/edit#slide=id.p1
+video: https://www.twitch.tv/videos/1201000810
 ---
 
 Fun story! My team has recently diverted almost all development effort towards accessibility due to external audits. Apparently big brother is watching!
